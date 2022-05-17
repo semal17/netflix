@@ -41,5 +41,5 @@ React, React Router, React Hooks, Redux
 
 ## API
 
-<a href="https://www.themoviedb.org/about">OpenWeather</a>
+<a href="https://www.themoviedb.org/about">TMDB</a>
 

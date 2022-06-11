@@ -3,7 +3,7 @@ import './App.css';
 function App() {
     return (
         <>
-            <p>Netflix</p>
+            <p>Netflix app</p>
         </>
     );
 }

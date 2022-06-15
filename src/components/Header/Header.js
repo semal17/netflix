@@ -3,7 +3,7 @@ import './Header.css';
 function Header() {
     return (
         <>
-            <p>Netflix Header</p>
+            <p>Header</p>
         </>
     );
 }

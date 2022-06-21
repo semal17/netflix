@@ -1,0 +1,11 @@
+.logo__link {
+    vertical-align: middle;
+    fill: #e50914;
+    display: inline-block;
+    line-height: 90px;
+}
+
+.logo__images {
+    display: block;
+    width: 110px;
+}

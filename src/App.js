@@ -1,16 +1,27 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import Main from './pages/Main/Main';
+import Movie from './pages/Movie/Movie';
+import MyList from './pages/MyList/MyList';
+import Popular from './pages/Popular/Popular';
+import TopMovies from './pages/TopMovies/TopMovies';
+import Error from './pages/Error/Error';
+
 import './App.css';
 
 function App() {
     return (
-        <>
-            <p>Netflix APP</p>
-        </>
+        <BrowserRouter>
+            <Routes>
+                <Route exact path="/" element={<Main />} />
+                <Route path="movie" element={<Movie />} />
+                <Route path="myList" element={<MyList />} />
+                <Route path="popular" element={<Popular />} />
+                <Route path="topMovies" element={<TopMovies />} />
+                <Route path="*" element={<Error />} />
+            </Routes>
+        </BrowserRouter>
     );
 }
 
 export default App;
-
-
-// Добрый день!
-// Очень заинтересовала ваша вакансия Frontend разработчика. Прочитав ваши пожелания по найму, могу сказать, что моя кандидатура должна подойти вам по стеку: JS, React (полностью мой стек можете посмотреть в резюме). Так же имею очень хорошие коммуникативные навыки и быструю обучаемость на практике.
-// Спасибо за уделенное время и надеюсь на дальнейший диалог!

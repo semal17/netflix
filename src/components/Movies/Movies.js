@@ -3,7 +3,7 @@ import './Movies.css';
 function Movies() {
     return (
         <>
-            <p>Netflix Movies</p>
+            <p>Netflix Movie</p>
         </>
     );
 }

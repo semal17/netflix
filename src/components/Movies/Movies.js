@@ -3,7 +3,7 @@ import './Movies.css';
 function Movies() {
     return (
         <>
-            <p>Movies</p>
+            <p>IMDB Movies</p>
         </>
     );
 }
